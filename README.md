@@ -20,6 +20,6 @@ This project is implemented as part of the Reinforcement Learning course by Deep
 3. **`agent_learn`:** Custom training loop utilizing `tf.GradientTape` for gradient descent and weight updates[cite: 4].
 4. **`lunar_lander_model.h5`:** Saved weights of the fully trained model[cite: 4].
 
-## 📈 Training & Evaluation
+##  Training & Evaluation
 
 The agent samples a random mini-batch from the experience memory buffer to perform learning updates every 4 steps[cite: 4]. The environment is considered solved when the agent achieves an average score of **200 points or higher over the last 100 consecutive episodes**, at which point the trained model is automatically saved[cite: 4].
